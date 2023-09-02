@@ -1,0 +1,123 @@
+body,html{
+    height: 100%;
+    margin:0;
+}
+.bg-img{
+    background-image: url("frontend_text_2.jpg");
+    background-attachment: fixed;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+p
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.gdsc-text
+{
+    text-transform: uppercase;
+}
+.divsection 
+{
+    border:1px solid #8383a9;
+    border-radius: 10px;
+    padding:20px;
+    
+} 
+div img{
+    width:70%;
+    height:60%;
+    margin-left: 50px;
+    padding: 20px;
+}
+.rightword
+{
+    font-weight: bold;
+    font-size:20px;
+    direction: rtl;
+}
+.lorem-paragraph
+{
+    text-align: justify;
+    text-align-last: center;
+    font-weight:lighter;
+}
+.submit-button
+{
+    border-radius: 30px;
+    background-color:blueviolet;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding:20px;
+    margin-left:600px;   
+
+}
+.submit-button:hover
+{
+    background-color: whitesmoke;
+    color:indigo;
+}
+.border-outline
+{
+    text-align: center;
+}
+.outline 
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:20px;
+    background-color: #eee;
+    border-radius: 20px 50px;
+    width:150px;
+    height: 50px;
+    margin-left:600px;  
+    border-top:5px solid #02ffae;
+    border-right:3px dotted #fbdb4a;
+    border-bottom:4px double #510081;
+    border-left:4px dashed #d6704b;
+    outline: 3px solid blueviolet ;
+    outline-offset: 10px;
+}
+.hr 
+{
+    border:1px solid  #c1c1d1;
+    width:80%;
+    margin:30px;
+}
+.text-shadow
+{
+    text-align:center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow:2px 2px greenyellow,1px 1px orange ;
+}
+.overflow-text 
+{
+    width:300px;
+    height:100px;
+    line-height: 2; 
+    letter-spacing: 1.5px; 
+    overflow: scroll;
+    background-color: #510081;
+    color:#c1c1d1 ;
+    text-align: justify;
+    margin-left: 20px;
+    padding:10px;
+    border-radius: 10px;
+}
+.overflow-part3 
+{
+    white-space: nowrap;
+    width:300px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    background-color:orange ; 
+    border-radius: 5px;
+    margin: 20px;
+    padding:5px;   
+}
